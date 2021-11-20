@@ -4,6 +4,9 @@
 /*HOME STYLE SHEET*/
 
 /*ADVERTISER STYLE*/
+.registerTop{
+	background-color: #009DAE;
+}
 .dd_index_top_adver{
 	margin:5px 0px 5px 0px;
 	clear:both;
@@ -322,7 +325,7 @@
 	float:right;
 	width:770px;
 	margin-bottom:20px;
-	
+
 	}
 	#product_storyList_top{
 		background-color:#f9d8a9;
@@ -333,7 +336,7 @@
 		float:left;
 		line-height:28px;
 		padding-left:5px;
-		}	
+		}
 	#product_storyList_top img{
 		padding-top:5px;}
     .product_storyList_content{
@@ -385,7 +388,7 @@
 	background-color:#FC6;
 	margin:0px 3px 1px 0px;
 	text-align:center;
-		
+
 		}
 	.product_page:hover{
 	width:16px;
@@ -396,7 +399,7 @@
 	background-color:#900;
 	margin:0px 3px 1px 0px;
 	color:#FFF;
-		
+
 		}
 /*SHOPPING CART STYLE*/
 .shopping_commend{
@@ -508,7 +511,7 @@
 .shopping_product_list{
 	background-color:#fefbf2;
 	height:40px;
-	
+
 	}
 	.shopping_product_list input{
 		width:30px;
@@ -599,7 +602,7 @@
 	margin:15px auto 15px auto;
 	}
 	.register_top_bg{
-		background-image:url(../images/register_top_bg.gif);
+		/*background-image:url(../images/register_top_bg.gif);*/
 		background-repeat:no-repeat;
 		height:5px;
 		}
@@ -612,18 +615,22 @@
 		   float:left;
 		 }
 	   .register_mid_left{
-		   background-image:url(../images/register_tag_left.gif);
+		   /*background-image:url(../images/register_tag_left.gif);*/
+			 background-color: #009DAE;
+
 		   height:32px;
 		   width:207px;
 		   background-repeat:no-repeat;
 		   padding:0px 0px 0px 106px;
 		   font-size:14px;
-		   color:#501500;
+		   color:white;
 		   font-weight:bold;
 		   line-height:35px;
 		   }
 	 .register_mid_mid{
-		   background-image:url(../images/register_tag_mid.gif);
+		   /*background-image:url(../images/register_tag_mid.gif);*/
+
+			 background-color: #71DFE7;
 		   height:32px;
 		   width:204px;
 		   background-repeat:no-repeat;
@@ -632,7 +639,9 @@
 		   line-height:35px;
 		   }
      .register_mid_right{
-		   background-image:url(../images/register_tag_right.gif);
+		   /*background-image:url(../images/register_tag_right.gif);*/
+			 background-color: #009DAE;
+			 color:white;
 		   height:32px;
 		   width:316px;
 		   background-repeat:no-repeat;
@@ -655,7 +664,7 @@
 		background-repeat:no-repeat;
 		}
 .register_top_bg_mid{
-	background-image:url(../images/register_shadow.gif);
+  background-image:url(../images/register_shadow.gif);
 	background-repeat:repeat-x;
 	}
 .register_title_bg{
@@ -676,7 +685,7 @@
 	}
 .register_row{
 	clear:both;
-	}	
+	}
 .register_row dt{
 	float:left;
 	width:200px;
@@ -694,6 +703,14 @@
 	height:18px;
 	border:solid 1px #999;
 	margin:0px 0px 8px 0px;
+	}
+	.btn-outline-primary{
+		height:35px;
+		margin:15px 5px 10px 200px;
+		clear:both;
+		text-align: center;
+		background-color: #71DFE7;
+	
 	}
 .registerBtn{
 	height:35px;
@@ -734,7 +751,7 @@
 	height:11px;
 	margin:5px 0px 0px 5px;
 	}
-	
+
 /*LOGIN STYLE*/
 .login_header_left{
 	float:left;
