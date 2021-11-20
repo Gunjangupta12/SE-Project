@@ -38,9 +38,8 @@
 	       float:left;
 		}
 	.logo{
-		width:130px;
-		padding-top:0px;
-		height:47px;
+		padding-top:10px;
+		padding-bottom: 5px;
 		}
 	.menu_left{
 		height:28px;
@@ -172,8 +171,8 @@
 	  width:4px;
 	  }
   #header_serach_mid_menu li{
-	  float:left;
-	  margin-top:6px;
+	  float:right;
+	  margin-top:22px;
 	  padding:0px 5px 0px 5px;
 	  line-height:25px;
 	  }
@@ -224,3 +223,9 @@
 #dd_menu_top_down li{
 	float:none;
 	}
+
+#menu_books{
+	padding: 5px;
+	text-align: center;
+	background-color: #009DAE;
+}

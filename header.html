@@ -7,6 +7,10 @@
 
 <link href="css/global.css" rel="stylesheet" type="text/css" />
 <link href="css/template.css" rel="stylesheet" type="text/css" />
+
+ <!-- Font Awesome CDN-->
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 <script src="js/menu_tree.js" type="text/javascript"></script>
 
 </head>
@@ -15,12 +19,12 @@
 
 <!--Top part-->
 <div class="header_top">
-   <div class="header_top_left">Welcome to Online Book Store [<a href="login.html" target="_parent">Login</a> | <a href="register.html" target="_parent">Sign Up</a>]</div>
+   <div class="header_top_left">Welcome to Online Book Delivery [<a href="login.html" target="_parent">Login</a> | <a href="register.html" target="_parent">Sign Up</a>]</div>
    <div class="header_top_right">
    <ul>
       <li><a href="#" target="_self">Help</a></li>
       <li>|</li>
-      <li><img src="images/dd_header_shop.gif" alt="shopping"/></li>
+      <li><i class="fas fa-shopping-cart"></i></li>
       <li><a href="shopping.html" target="_parent">Cart</a></li>
       <li>|</li>
       <li onmouseover="myddang_show('dd_menu_top_down')" onmouseout="myddang_hidden('dd_menu_top_down')"><a href="#" target="_self">Your Account</a> <img src="images/dd_arrow_down.gif" alt="arrow" />
@@ -36,44 +40,31 @@
    </ul>
    </div>
 </div>
+
 <!--Head part-->
 <div class="header_middle">
-<div class="logo"><img src="images/logo.PNG" alt="logo"/></div>
-<div class="menu_left">
-</div>
-
+<div class="logo"><img src="images/LOGO.jpg" alt="logo" style="height: 50px; width: 150px;"></div>
+   <ul id="header_serach_mid_menu">
+      <li><i class="fas fa-search"></i></li>
+     <li><input id="header_serach" type="text" placeholder="Search Books.." class="header_input_search" /></li>
+   </ul>
 
 <div class="menu">
-<div class="menu_first"></div>
-<div id="menu_white">
-     <a href="#" target="_self" class="menu_mid_white">ENTRANCE EXAM</a>|
-     <a href="#" target="_self" class="menu_mid_white">NCERT</a>|
-     <a href="#" target="_self" class="menu_mid_white">SCI-FI</a>|
-     <a href="#" target="_self" class="menu_mid_white">HISTORY</a>|
-     <a href="#" target="_self" class="menu_mid_white">SELF-HELP</a>|
-     <a href="#" target="_self" class="menu_mid_white">CLASSIC</a>|
-     <a href="#" target="_self" class="menu_mid_white">BIOGRAPHY/AUTOBIOGRAPHY</a>|
-     <a href="#" target="_self" class="menu_mid_white">ROMANCE</a>|
-     <a href="#" target="_self" class="menu_mid_white">MYSTERY</a>|
-     <a href="#" target="_self" class="menu_mid_white">HORROR</a>|
+<div id="menu_books">
+     <a href="#" target="_self" class="menu_mid_white">ENTRANCE EXAM</a>||
+     <a href="#" target="_self" class="menu_mid_white">NCERT</a>||
+     <a href="#" target="_self" class="menu_mid_white">SCI-FI</a>||
+     <a href="#" target="_self" class="menu_mid_white">HISTORY</a>||
+     <a href="#" target="_self" class="menu_mid_white">SELF-HELP</a>||
+     <a href="#" target="_self" class="menu_mid_white">CLASSIC</a>||
+     <a href="#" target="_self" class="menu_mid_white">BIOGRAPHY/AUTOBIOGRAPHY</a>||
+     <a href="#" target="_self" class="menu_mid_white">ROMANCE</a>||
+     <a href="#" target="_self" class="menu_mid_white">MYSTERY</a>||
+     <a href="#" target="_self" class="menu_mid_white">HORROR</a>||
      <a href="#" target="_self" class="menu_mid_white">THRILLER</a>
-     </div>
-<div class="menu_end"></div>
 </div>
 </div>
-<!--Search Part-->
-<div class="header_search">
- <div class="header_serach_left"></div>
- <div class="header_serach_mid">
- <ul id="header_serach_mid_menu">
-   <li><input id="header_serach" type="text" class="header_input_search" /></li>
-   <li><input type="image" class="header_secrch_btn" src="images/dd_header_search_btn.jpg" /></li>
-   <!--<li><img src="images/dd_arrow_right.gif" alt="arrow"/> <a href="#" target="_self">SEARCH</a></li><li>|</li>-->
-  </ul>
- 
-   
- </div>
- <div class="header_serach_right"></div>
 </div>
+
 </body>
 </html>
