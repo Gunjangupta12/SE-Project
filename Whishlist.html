@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>My Wishlist</title>
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/shopping.js"></script>
+</head>
+
+<body>
+<div id="header"><iframe src="header.html" height="155px" width="960px" frameborder="0"></iframe></div>
+<!--middle-->
+<div id="main">
+  <div>&nbsp;&nbsp;<img src="S:\SE-Project\images\shopping-cart.png" height="50px" widht="50px" alt="shopping">
+    My Wishlist
+
+
+
+<div class="shopping_list_top">My Wishlist</div>
+  <div class="shopping_list_border">
+
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr class="shopping_list_title">
+       <td class="shopping_list_title_1">Name</td>
+       <td class="shopping_list_title_2">Credit</td>
+       <td class="shopping_list_title_3">List price</td>
+       <td class="shopping_list_title_4">Deal</td>
+       <td class="shopping_list_title_5">Amount</td>
+       <td class="shopping_list_title_6">Delete</td>
+       <td class="shopping_list_title_7">Add to Cart</td>
+    </tr>
+    </table>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0" id="myTableProduct">
+   <tr class="shopping_product_list" id="shoppingProduct_01" onMouseOver="productOver('shoppingProduct_01')"  onMouseOut="productOut('shoppingProduct_01')">
+       <td class="shopping_product_list_1"><a href="#" class="blue">Head First HTML and CSS...</a></td>
+       <td class="shopping_product_list_2"><label>189</label></td>
+       <td class="shopping_product_list_3">$<label>52.00</label></td>
+       <td class="shopping_product_list_4">$<label>32.90 </label>(37%)</td>
+       <td class="shopping_product_list_5"><input type="text" value="1" onblur="productCount()"></td>
+       <td class="shopping_product_list_6"><a href="javascript:deleteProduct('shoppingProduct_01')" class="blue">delete</a></td>
+       <td class="shopping_product_list_6"><a class="blue">Add to cart</a></td>
+   </tr>
+   <tr class="shopping_product_list" id="shoppingProduct_02" onMouseOver="productOver('shoppingProduct_02')"  onMouseOut="productOut('shoppingProduct_02')">
+       <td class="shopping_product_list_1"><a href="#" class="blue"> Android Application Development All-in-One For Dummies</a></td>
+       <td class="shopping_product_list_2"><label>173</label></td>
+       <td class="shopping_product_list_3">$<label>47.00</label></td>
+       <td class="shopping_product_list_4">$<label>29.30</label>(38%)</td>
+       <td class="shopping_product_list_5"><input type="text" value="1" onBlur="productCount()"></td>
+       <td class="shopping_product_list_6"><a href="javascript:deleteProduct('shoppingProduct_02')" class="blue">delete</a></td>
+        <td class="shopping_product_list_6"><a class="blue">Add to cart</a></td>
+   </tr>
+
+  <tr class="shopping_product_list" id="shoppingProduct_03" onMouseOver="productOver('shoppingProduct_03')"  onMouseOut="productOut('shoppingProduct_03')">
+       <td class="shopping_product_list_1"><a href="#" class="blue">Player's Handbook</a></td>
+       <td class="shopping_product_list_2"><label>154</label></td>
+       <td class="shopping_product_list_3">$<label>58.80</label></td>
+       <td class="shopping_product_list_4">$<label>35.40</label> (39%)</td>
+       <td class="shopping_product_list_5"><input type="text" value="2" onBlur="productCount()"></td>
+       <td class="shopping_product_list_6"><a href="javascript:deleteProduct('shoppingProduct_03')" class="blue">delete</a></td>
+        <td class="shopping_product_list_6"><a class="blue">Add to cart</a></td>
+   </tr>
+  <tr class="shopping_product_list" id="shoppingProduct_04" onMouseOver="productOver('shoppingProduct_04')"  onMouseOut="productOut('shoppingProduct_04')">
+       <td class="shopping_product_list_1"><a href="#" class="blue">Deep Learning</a></td>
+       <td class="shopping_product_list_2"><label>358</label></td>
+       <td class="shopping_product_list_3">$<label>101.00</label></td>
+       <td class="shopping_product_list_4">$<label>101.00</label> (0%)</td>
+       <td class="shopping_product_list_5"><input type="text" value="1" onBlur="productCount()"></td>
+       <td class="shopping_product_list_6"><a href="javascript:deleteProduct('shoppingProduct_04')" class="blue">delete</a></td>
+        <td class="shopping_product_list_6"><a class="blue">Add to cart</a></td>
+   </tr>
+
+    </table>
+
+  </div>
+
+</div>
+
+<!--Footer start-->
+<div id="footer">
+<iframe src="footer.html" height="50px" width="900px" frameborder="0"></iframe></div>
+</body>
+</html>
