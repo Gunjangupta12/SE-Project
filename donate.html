@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donate</title>
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="header">
+        <iframe src="header.html" height="155px" width="960px" frameborder="0"></iframe>
+    </div>
+   
+   <div class="box" style="text-align: center; border-style: solid; margin: 0px 40px; padding-bottom: 20px; height: 350px;">
+      <br><h1 style="color: #05363b; font-size: 40px;"> <i class="fas fa-book-open"></i> Donate </h1><br><br>
+  <div class="box">
+
+      <form action="" method="post" id="myform" onSubmit="return zhuCe()">
+        <dl class="register_row">
+           <dt>Name : &nbsp;</dt>
+           <dd><input id="email" type="text" class="register_input" onBlur="checkBlur()" onFocus="emailFocus()"></dd>
+           <dd><div id="email_prompt"></div></dd>
+         </dl>
+         <dl class="register_row">
+            <dt>Phone number : &nbsp;</dt>
+            <dd><input id="nickName" type="text" class="register_input" onBlur="nameBlur()" onFocus="nickFocus()"></dd>
+            <dd><div id="nickName_promt"></div></dd>
+         </dl>
+        <dl class="register_row">
+            <dt>Address : &nbsp;</dt>
+            <dd><input id="repwd" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
+            <dd><div id="repwdId"></div></dd>
+        </dl>
+        <dl class="register_row">
+            <dt>Name of Book/PDF: &nbsp;</dt>
+            <dd><input id="repwd" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
+            <dd><div id="repwdId"></div></dd>
+        </dl>
+        <dl class="register_row">
+            <dt>File Upload : &nbsp;</dt>
+            <dd><input id="repwd" type="file" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
+            <dd><div id="repwdId"></div></dd>
+        </dl>
+        <dl class="register_row">
+            <dt>&nbsp;</dt>
+            <dd><a class="btn">Submit</a>
+        </dl>
+         <!--<button type="button" class="btn btn-outline-primary"></button>-->
+       </div>
+      </form>
+  </div>
+</div>
+
+<br>
+
+  <div id="footer">
+    <div class="footer_top"><a href="#" target="_parent" class="footer_dull_red">Get to Know Us</a> | <a href="#" target="_parent" class="footer_dull_red">Make Money with Us</a> | <a href="#" target="_parent" class="footer_dull_red">Join Us</a> | <a href="#" target="_parent" class="footer_dull_red">Let Us Help You</a> | <a href="#" target="_parent" class="footer_dull_red">Conditions of Use</a></div>
+    <iframe src="footer.html" height="50px" width="900px" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>
