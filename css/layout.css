@@ -4,6 +4,12 @@
 /*HOME STYLE SHEET*/
 
 /*ADVERTISER STYLE*/
+.thanks{
+	text-align: center;
+}
+.btn{
+	text-align: center;
+}
 .registerTop{
 	background-color: #009DAE;
 }
@@ -730,7 +736,7 @@
 		display: inline-block;
 		cursor: pointer;
 	 }
-	 
+
 	 .btn:hover {
 		border: solid #82DEE5 1px;
 		background: #30E3CB;

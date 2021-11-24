@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Email Confirmation</title>
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div id="header">
+    <div id="register_header">
+       <div class="register_header_left"><img src="images/LOGO.jpg" style="height: 60px; width: 150px;" alt="logo"></div>
+       <div class="register_header_right"><a href="index.html" class="blue">HOME PAGE</a> | <a href="product.html" class="blue">BOOKS</a>  | <a href="shopping.html" class="blue">SHOPPING CART</a> |  <a href="login.html" class="blue">LOGOUT</a></div>
+       </div>
+    </div>
+
+    <div id="main">
+      <div class="register">
+        <div class="register_mid_bg">
+          <ul>
+            <li class="register_mid_left"></li>
+            <li class="register_mid_mid">Email Confirmation</li>
+            <li class="register_mid_right"></li>
+
+        </ul>
+        </div>
+        <div class="register_top_bg_mid">
+         <div class="register_top_bg_two_left"></div>
+         <div class="register_top_bg_two_right"></div>
+         <div class="register_title_bg">
+    	  <img src="images/register_pic_02.gif" alt="welcome register">
+    	  <br>Take care to protect your personal information online.
+    	  <br>Create unique passwords for each of your online accounts and change those passwords frequently.
+    	 </div>
+        </div>
+        <div class="register_dotted_bg"></div>
+        <div class="register_message">
+        <form action="" method="post" id="myform" onSubmit="return zhuCe()">
+         <dl class="register_row">
+            <dt>Email : &nbsp;</dt>
+            <dd><input id="email" type="text" class="register_input" onBlur="checkBlur()" onFocus="emailFocus()"></dd>
+            <dd><div id="email_prompt"></div></dd>
+          </dl>
+
+         <dl class="register_row">
+            <dt>Is this your email : </dt>
+            <dd><input name="sex" type="radio" value="male"> <label>Yes</label></dd>
+           <dd> <input name="sex" type="radio" value="female"> <label>No</label></dd>
+         </dl>
+         <dl class="register_row">
+           <dt></dt>
+
+
+
+          </dl>
+          <a text-align: center class="btn" href="">SUBMIT</a>
+          <!--<button type="button" class="btn btn-outline-primary"></button>-->
+        </div>
+
+          <!--<div class="registerBtn"><input id="registerBtn" type="image" src="images/register_btn_out.gif" onMouseOver="over()" onMouseOut="out()" onclick="Reg()" ></div>-->
+       </form>
+        </div>
+
+
+      </div>
+      </div>
+    <!--Copyright Part-->
+
+    <div id="footer">
+    <iframe src="footer.html" height="50px" width="900px" frameborder="0"></iframe>
+    </div>
+  </body>
+</html>
