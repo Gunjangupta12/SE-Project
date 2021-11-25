@@ -18,22 +18,22 @@
       <form action="/" method="post" id="myform" onSubmit="return zhuCe()">
         <dl class="register_row">
            <dt>Name : &nbsp;</dt>
-           <dd><input id="email" type="text" class="register_input" onBlur="checkBlur()" onFocus="emailFocus()"></dd>
+           <dd><input id="email" name="nameOfDonor" type="text" class="register_input" onBlur="checkBlur()" onFocus="emailFocus()"></dd>
            <dd><div id="email_prompt"></div></dd>
          </dl>
          <dl class="register_row">
             <dt>Phone number : &nbsp;</dt>
-            <dd><input id="nickName" type="text" class="register_input" onBlur="nameBlur()" onFocus="nickFocus()"></dd>
+            <dd><input id="nickName" name="phoneNumber" type="text" class="register_input" onBlur="nameBlur()" onFocus="nickFocus()"></dd>
             <dd><div id="nickName_promt"></div></dd>
          </dl>
         <dl class="register_row">
             <dt>Address : &nbsp;</dt>
-            <dd><input id="repwd" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
+            <dd><input id="repwd" name="addressOfDonor" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
             <dd><div id="repwdId"></div></dd>
         </dl>
         <dl class="register_row">
             <dt>Name of Book/PDF: &nbsp;</dt>
-            <dd><input id="repwd" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
+            <dd><input id="repwd" name="nameOfBook_PDF" type="text" class="register_input" onBlur="rePwdBlur()" onFocus="repwdFocus()"></dd>
             <dd><div id="repwdId"></div></dd>
         </dl>
         <dl class="register_row">
