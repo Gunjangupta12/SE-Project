@@ -9,17 +9,12 @@
 .faqs{
 	text-align: center;
 	color: #05363b;
-	font-size: 20px;
+	font-size: 15px;
 }
-.faq{
-	padding: 70px;
-	font-size: 40px;
-	text-align: center;
-	color: #009DAE;
-}
+
 .imgg{
 	text-align:center;
-	margin-left: 410px;
+	margin-bottom: 30px;
 }
 body{
 	margin:0px;
