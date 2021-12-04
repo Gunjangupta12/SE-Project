@@ -1,6 +1,26 @@
 @charset "gb2312";
 /* CSS Document */
-
+.box{
+	text-align: center;
+}
+.c{
+	text-align: center;
+}
+.faqs{
+	text-align: center;
+	color: #05363b;
+	font-size: 20px;
+}
+.faq{
+	padding: 70px;
+	font-size: 40px;
+	text-align: center;
+	color: #009DAE;
+}
+.imgg{
+	text-align:center;
+	margin-left: 410px;
+}
 body{
 	margin:0px;
 	padding:0px;
@@ -16,7 +36,7 @@ ul,li,ol,h1,dl,dd{
 a{
 	color:#333333;
     text-decoration: none;
-	}    
+	}
 a:hover{
 	color:#333333;
 	text-decoration:underline;
@@ -38,4 +58,3 @@ img{
 	clear:both;
 	float:none;
 	}
-

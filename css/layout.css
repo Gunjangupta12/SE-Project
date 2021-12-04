@@ -482,7 +482,8 @@
 	border:solid 2px #999;
 	}
 .shopping_list_title{
-	background-color:#d8e4c6;
+	color: white;
+	background-color:#009DAE;
 	height:25px;
 	}
 .shopping_list_title li{
@@ -558,7 +559,8 @@
 		text-align:center;
 		}
 .shopping_list_end{
-		background-color:#cddbb8;
+	color: white;
+		background-color:#009DAE;
 		height:60px;
 		}
 		.shopping_list_end li{
