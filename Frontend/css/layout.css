@@ -41,7 +41,7 @@
 .book_sort_bg{
 	background-color:#fff0d9;
 	padding-left:10px;
-	color: rgb(175, 19, 19);
+	color: rgb(175, 19, 19);   /* don't change */
 	font-size:14px;
 	height:25px;
 	font-weight:bold;
@@ -115,7 +115,7 @@
 	}
 .book_left{
 	margin:0px 50px 0px 10px;
-	color:#882D00;
+	color:#0b4e50;
 	font-size:14px;
 	font-weight:bold;
 	float:left;
@@ -140,7 +140,7 @@
 	height:23px;
 	margin-top:2px;
 	text-align:center;
-	color:#882D00;
+	color:#0b4e50;
 	font-weight:bold;
 	cursor:pointer;
 	}
@@ -208,7 +208,7 @@
 	text-align:center;
 	}
 .book_seven_title{
-	background-color:#518700;
+	background-color: #009DAE;
 	color:#ffffff;
 	font-size:14px;
 	height:25px;
@@ -248,7 +248,7 @@
 	width:35px;
 	height:18px;
 	text-align:center;
-	color:#882D00;
+	color:#11999E;
 	}
 .book_seven_content_left{
 	float:left;
@@ -281,14 +281,15 @@
 .footer_top,.footer_end{
 	width:800px;
 	margin:0px auto 0px auto;
+	font-weight:600;
 	clear:both;
 	text-align:center;
 	}
 .footer_top{
-	color:#9B2B0F;
+	color:#0b4e50;
 	}
 .footer_dull_red,.footer_dull_red:hover{
-	color:#9B2B0F;
+	color:#0b4e50;
 	margin:0px 8px 0px 8px;
 	}
 
@@ -466,10 +467,11 @@
 		width:65px;
 		}
 	.shopping_yellow{
-		color:#ED610C;
+		color:#11999E;
+		font-weight: 700;
 		}
 	.shopping_yellow:hover{
-		color:#ED610C;
+		color:#0b4e50;
 		text-decoration:underline;
 		}
 .shopping_list_top{
@@ -491,16 +493,16 @@
 	line-height:28px;
 	}
 	.shopping_list_title_1{
-		width:420px;
+		width:390px;
 		padding-left:30px;
 		text-align:left;
 		}
 	.shopping_list_title_2{
-		width:120px;
+		width:110px;
 		text-align:center;
 		}
 	.shopping_list_title_3{
-		width:120px;
+		width:110px;
 		text-align:center;
 		}
 	.shopping_list_title_4{
@@ -508,11 +510,11 @@
 		text-align:center;
 		}
 	.shopping_list_title_5{
-		width:70px;
+		width:55px;
 		text-align:center;
 		}
 	.shopping_list_title_6{
-		width:70px;
+		width:90px;
 		text-align:center;
 		}
 .shopping_product_list{
@@ -571,7 +573,7 @@
 			}
 		.shopping_list_end_2{
 			font-weight:bold;
-			color:#BD3E00;
+			color:#0b4e50;
 			font-size:14px;
 			margin:15px 10px 0px 0px;
 			}
@@ -586,7 +588,7 @@
 			padding-right:10px;
 			}
 		.shopping_list_end_yellow{
-			color:#BD3E00;
+			color:#0b4e50;
 			}
 /*REGISTER STYLE*/
 #register_header{
@@ -856,7 +858,7 @@
 	padding:10px 0px 0px 35px;
 	font-weight:bold;
 	font-size:14px;
-	color:#900;
+	color:#1588f3;
 	}
 .login_content_line{
 	background-image:url(../images/login_icon_bg_02.gif);
@@ -957,3 +959,8 @@
 		border:0px;
 		cursor:pointer;
 		}
+
+	.credit_layout{
+		color: #0b4e50;
+		text-align: center;
+	}
