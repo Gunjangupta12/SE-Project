@@ -8,9 +8,9 @@
  /*Display ads in a cycle*/	
      var scorll_img=new Array(); 
      scorll_img[0]="images/dd_scroll_1.jpg";
-     scorll_img[1]="images/dd_scroll_2.jpg";
-     scorll_img[2]="images/dd_scroll_3.jpg";
-     scorll_img[3]="images/dd_scroll_4.jpg";
+     scorll_img[1]="images/dd_scroll_5.jpg";
+     scorll_img[2]="images/dd_scroll_6jpg.jpg";
+     scorll_img[3]="images/dd_scroll_1.jpg";
      scorll_img[4]="images/dd_scroll_5.jpg";
      scorll_img[5]="images/dd_scroll_6jpg.jpg";
 	 /*button id*/
