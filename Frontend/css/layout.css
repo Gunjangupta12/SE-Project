@@ -38,6 +38,13 @@
 	float:right;
 	margin-bottom: 20px;
 	}
+
+.book_sort_product{
+	border:solid 1px #999;
+	margin: 0px 80px;
+	margin-bottom: 20px;
+}
+
 .book_sort_bg{
 	background-color:#fff0d9;
 	padding-left:10px;
@@ -182,6 +189,9 @@
 .book_publish{
 	color:#C00;
 	}
+.book_cart{
+	color: #16a379;
+}
 #book_focus dt{
 	width:145px;
 	margin:5px 0px 0px 7px;
@@ -963,4 +973,8 @@
 	.credit_layout{
 		color: #0b4e50;
 		text-align: center;
+	}
+
+	.donate_complete{
+		margin: 50px 220px 0px 220px;	
 	}
