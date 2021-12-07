@@ -41,7 +41,7 @@
 .book_sort_bg{
 	background-color:#fff0d9;
 	padding-left:10px;
-	color:#882D00;
+	color: rgb(175, 19, 19);
 	font-size:14px;
 	height:25px;
 	font-weight:bold;
@@ -633,7 +633,6 @@
 		   padding:0px 0px 0px 106px;
 		   font-size:14px;
 		   color:white;
-		   font-weight:bold;
 		   line-height:35px;
 		   }
 	 .register_mid_mid{
@@ -823,7 +822,7 @@
 	width:150px;
 	}
    .login_green dt{
-	   color:#519403;
+	   color:#11999E;
 	   font-weight:bold;
 	}
 	.login_green dd{
