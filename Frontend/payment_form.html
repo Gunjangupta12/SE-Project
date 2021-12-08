@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div id="header">
+        <iframe src="header2.html" height="155px" width="960px" frameborder="0"></iframe>
+    </div>
+
+   <div class="box" style="border-style: solid; margin: 0px 90px; padding-bottom: 20px; height: 350px;">
+     <div class="c" style="margin-top: 50px;">
+        <form action="">
+            <h1>Payment information</h1>
+            <p>Card Type: *
+                <select name="card_type" id="card_type"required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                Card Numbern * <input type="number" name="card_number" id="card_number" required>
+            </p>
+            <p>
+                Expiration Date: * <input type="date" name="exp_date" id="exp_date"required>
+            </p>
+            <p>CVV * <input type="password" name="cvv" id="cvv"required></p>
+            <a href="shopping.html" class="btn">Pay Now</a>
+        </form>
+    </div>
+</div>
+</div>
+<br>
+
+<div id="footer">
+<div class="footer_top"><a href="#" target="_parent" class="footer_dull_red">Get to Know Us</a> | <a href="#" target="_parent" class="footer_dull_red">Join Us</a> | <a href="#" target="_parent" class="footer_dull_red">Let Us Help You</a> | <a href="#" target="_parent" class="footer_dull_red">Conditions of Use</a></div>
+<iframe src="footer.html" height="50px" width="900px" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>
